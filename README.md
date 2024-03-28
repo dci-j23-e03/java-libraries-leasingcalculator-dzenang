@@ -13,7 +13,7 @@ You'll find a populated Excel file LeasingCars.xls in the src/main/resources dir
 > Check the [official guides](https://poi.apache.org/components/spreadsheet/quick-guide.html) for pointers to the correct API classes and methods.
 
 ### Read the contents of the Excel file
-Import the libraries (in lib/) and read from the *LeasingCars.xlsx* file in your code. Calculate the total monthly for each car and output it for the user.
+Import the libraries (in lib/) and read from the *LeasingCars.xls* file in your code. Calculate the total monthly cost for each car and output it for the user.
 
 * Create a new Object of the LeasingCars class for each row in the Excel file
 * Calculate the monthly total cost depending on the user input (see prepared code parts).

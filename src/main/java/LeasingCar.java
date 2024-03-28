@@ -73,4 +73,16 @@ public class LeasingCar {
     this.monthlyCost = monthlyCost;
     return this;
   }
+
+  @Override
+  public String toString() {
+    return "LeasingCar{" +
+        "brand='" + brand + '\'' +
+        ", model='" + model + '\'' +
+        ", monthlyLeasingAmount=" + monthlyLeasingAmount +
+        ", yearlyInsuranceCost=" + yearlyInsuranceCost +
+        ", fuelConsumptionPer100Km=" + fuelConsumptionPer100Km +
+        ", monthlyCost=" + monthlyCost +
+        '}';
+  }
 }
